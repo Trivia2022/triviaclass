@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<div>
+  <html lang="en">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <head>
+    <center>
+      <div class="header">
+
+        <img src="https://th.bing.com/th/id/OIP.tnpbSmlofdSe3MKzFvXmcAHaHa?pid=ImgDet&w=221&h=221&c=7&dpr=1.25" width="50px"></img> Trivia.com
+
+      </div>
+    
+    
+    <style>
+    .dropbtn {
+      font-family: Arial Black;
+        background-color: #333;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: gray;
+        border-radius: 1ch;
+        text-decoration:;
+    }
+     
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(134, 130, 130);
+        min-width: 200px;
+      color: white;
+ 
+    }
+    
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {background-color: rgb(11, 8, 204);}
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color:  rgb(99, 95, 95);}
+    
+    </style>
+    </head>
+    
+
+    
+    
+
+    
+        <body>
+            
+           
+
+</body>
+</html>
+        
+       
+      <div class="dropdown">
+
+        <button class="btn"><i class="fa fa-bars"></i> Menu</button>
+        <div class="dropdown-content">
+          <a href="https://codepen.io/Trivia-2022/full/gOoMrvX">Home</a>
+      <a href="https://codepen.io/Trivia-2022/full/GRyNZam">Grades</a>
+      <a href="https://codepen.io/Trivia-2022/full/ZEvOyPe">March 24th Vocab Trivia- Question 1</a> <a href="https://codepen.io/Trivia-2022/full/yLpgxJB">March 24th Vocab Trivia- Question 2</a>
+      <a href="https://codepen.io/Trivia-2022/full/eYyzyOR">March 24th Vocab Trivia- Question 3</a>
+      <a href="https://codepen.io/Trivia-2022/full/QWadVvX">March 24th Vocab Trivia- Question 4</a>
+      <a href="https://codepen.io/Trivia-2022/full/jOYyvzO">March 24th mygrades.com assignment </a>
+
+      <a href="https://codepen.io/Trivia-2022/full/ExoywjJ">Past Trivia </a>
+
+        </div>
+
+      </div>
+      <br> 
+      <br><b>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <div class="q1style"><i class="fa fa-home"></i>
+          Homepage
+        </div>
+        <br>
+        <div class="q1des">
+        Trivia Class News
+        </div>
+    <br>
+    <div class="news"> <img src="https://o.remove.bg/downloads/06d72eb1-9307-4724-9118-824df3f35ed5/th-removebg-preview.png" width="150px"><br>
+      <h1>March 20th, 2022</h1> 
+      New vocabulary series starting this Tuesday beginning on March 22nd. <br><br>
+      Every Tuesday listed below will be vocab themed Trivia.<br>
+      <p class="btnSubmite btn-block">- March 22nd</p>
+      <p class="btnSubmite btn-block">- March 29th</p>
+       <p class="btnSubmite btn-block">- April 5th</p>
+      <p class="btnSubmite btn-block">- April 12th</p>
+      <p class="btnSubmite btn-block">- April 19th</p><br> 
+         </div>
+  </head>
+
+  <body>
+    <center>
+
+
+
+</center>
+  </body>
+
+  </html>
+
+  
+<script>
+  function check() {
+    var quiz = document.getElementById("quiz");
+    var q1 = document.h.Email.value;
+    if (q1 == "op2")
+      document.getElementById("para").innerHTML = "CORRECT";
+    else
+      document.getElementById("para").innerHTML = "INCORRECT";
+    quiz.style.display = "none";
+    if (q1 == "op2")
+      document.getElementById("correct").style.display = "block"
+    else
+      document.getElementById("incorrect").style.display = "block"
+  }
+</script>
+<script>
+
+</script>
+
+<style>
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+
+  .parastyle {
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+  }
+
+  .header {
+    background: ;
+    font-family: ;
+    padding: none;
+    color: black;
+    height: 65px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .q1style {
+    font-size: 25px;
+    background-color: DodgerBlue;
+    height: 35px;
+    color: white;
+    width: 170px; 
+    border-radius: 1ch;
+  }
+
+  .q1des {
+    font-size: 28px;
+  }
+
+  .btnSubmit {
+    background-color: DodgerBlue;
+    color: white;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+  }
+  .btnSubmite {
+    background-color: rgb(118, 122, 122);;
+    color: white;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: overline;
+    border-radius: 0.5ch;
+  }
+
+  .btnSubmit:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+  }
+
+  .namestyle {
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+  }
+
+  .next {
+    margin-left: 200px;
+  }
+
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    margin-right: 300px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 500%;
+    overflow: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  
+
+  .btn {
+    background-color:
+      DodgerBlue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 498%;
+  }
+
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(11, 8, 204);
+  }
+  .news{
+    background-color: 
+rgb(212, 217, 217);
+    width: 300px;
+    
+    color: rgb(118, 122, 122);
+    border-radius: 1ch;
+  }
+</style>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
